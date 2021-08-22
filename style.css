@@ -1,0 +1,33 @@
+main {
+    display: flex;
+}
+#building {
+    width: 10rem;
+    background-color: red;
+    display: grid;
+    gap: 3px;
+}
+.floor {
+    background-color: black;
+    width: 100%;
+    height: 2rem;
+    color: white;
+    text-align: center;
+}
+.lift {
+    background-color: blue;
+}
+.control,
+.area {
+    display: inline-block;
+    margin: 0 2rem;
+}
+#control {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1rem;
+    position: fixed;
+}
+button {
+    padding: 1rem;
+}
